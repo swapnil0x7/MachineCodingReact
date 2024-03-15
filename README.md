@@ -1,1 +1,1 @@
-# Repository for machine coding implementations in React
+# Repository for machine coding implementations in React 🍕
