@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.App {
+	font-family: sans-serif;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h4 {
+	margin: 10px;
+}
+
+.progress {
+	border: 1.25px solid black;
+	width: 75%;
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	height: 30px;
+	border-radius: 30px;
+	overflow: hidden;
+}
+
+.value {
+	position: absolute;
+	left: 50%;
+}
+
+.loader {
+	background-color: rgb(8, 170, 8);
+	height: 100%;
+	width: 40%;
+}
